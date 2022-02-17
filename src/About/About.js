@@ -4,7 +4,7 @@ import ScrollIcon from "./ScrollAnim/ScrollIcon";
 
 const About = ({ ...props }) => {
     return (
-        <VStack>
+        <VStack paddingInline='5%'>
             <Box h='800px' p={10} display={{ md: 'flex' }}>
                 <Box w={['100%', '100%', '60%', '50%']} h={['10%', '20%', '100%',]} flexShrink={0}>
                     <Center h='100%'>
