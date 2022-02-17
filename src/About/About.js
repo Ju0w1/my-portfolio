@@ -16,7 +16,7 @@ const About = ({ ...props }) => {
                 </Box>
                 <Box w={['100%', '100%', '50%', '50%']} h={['50%', '75%', '100%',]} mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
                     <Center h={'100%'} w='100%'>
-                        <Image borderRadius='full' w={['70%', '70%', '100%', '40%']} objectFit='cover' src="/me.jpg" />
+                        <Image border='8px solid' shadow='2px 10px 20px rgba(0, 0, 0, 0.2)' borderRadius='full' w={['70%', '70%', '100%', '40%']} objectFit='cover' src="/me.jpg" />
                     </Center>
                 </Box>
             </Box>
