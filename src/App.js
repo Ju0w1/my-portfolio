@@ -1,13 +1,12 @@
 import './App.css';
 import { ChakraProvider } from "@chakra-ui/react"
 import NavBar from './Header/Navbar';
-import Toggle from './Header/ToggleTheme/Toggle';
 import Home from './Pages/Home';
-
+import theme from './theme';
 
 function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <NavBar />
       <Home />
     </ChakraProvider>
