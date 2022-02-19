@@ -2,14 +2,14 @@ import React from "react"
 import { Box, Image, Flex, Heading, Center, Spacer, Text, VStack, Link } from "@chakra-ui/react"
 import ScrollIcon from "./ScrollAnim/ScrollIcon";
 
-const About = ({ ...props }) => {
+const Home = ({ ...props }) => {
     return (
-        <VStack paddingInline='5%'>
-            <Box h='800px' p={10} display={{ md: 'flex' }}>
+        <VStack paddingInline='5%' position='relative'>
+            <Box mt={12} h={'850px'} p={10} display={{ md: 'flex' }}>
                 <Box w={['100%', '100%', '60%', '50%']} h={['10%', '20%', '100%',]} flexShrink={0}>
                     <Center h='100%'>
                         <VStack>
-                            <Heading textAlign='center' fontSize={['1rem', '2rem', '2rem', '3rem']} >Hi, I'm Pablo Peculio.</Heading>
+                            <Heading textAlign='center' fontSize={['1.5rem', '2rem', '2rem', '3rem']} >Hi, I'm Pablo Peculio.</Heading>
                             <Text textAlign='center' fontSize={['1rem', '1rem', '1rem', '2rem']} >I'm a software developer.</Text>
                         </VStack>
                     </Center>
@@ -23,8 +23,8 @@ const About = ({ ...props }) => {
             <Box w='100%'>
                 <ScrollIcon />
             </Box>
-        </VStack>
+        </VStack >
     );
 };
 
-export default About;
+export default Home;

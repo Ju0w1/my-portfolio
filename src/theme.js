@@ -1,6 +1,5 @@
 import { extendTheme } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
-import ScrollIcon from './About/ScrollAnim/ScrollIcon';
 const theme = extendTheme({
     fonts: {
         heading: 'Tommy',
@@ -17,9 +16,7 @@ const theme = extendTheme({
             }
         })
     },
-    components: {
-        ScrollIcon,
-    }
+
 
 
 })

@@ -1,11 +1,22 @@
 import React from "react"
-import { Flex, } from "@chakra-ui/react"
+import { Flex, useColorMode, useMediaQuery } from "@chakra-ui/react"
+import { checkThemeAndScreenSize } from "../../Utils/utils";
+
+
 const NavBarContainer = ({ children, ...props }) => {
+    const { colorMode } = useColorMode()
+    const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
+
+
     return (
         <Flex
+
+            bgColor={checkThemeAndScreenSize(colorMode, isLargerThan768, 'whiteAlpha.400', 'white', 'blackAlpha.400', 'black')}
+            zIndex={99999}
             as="nav"
             align="center"
             justify="space-between"
+            position='fixed'
             wrap="wrap"
             w="100%"
             mb={0}
