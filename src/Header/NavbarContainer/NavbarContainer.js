@@ -10,9 +10,10 @@ const NavBarContainer = ({ children, ...props }) => {
 
     return (
         <Flex
+            backdropFilter='blur(2px)'
+            backgroundColor={checkThemeAndScreenSize(colorMode, isLargerThan768, 'whiteAlpha.400', 'white', 'blackAlpha.400', 'black')}
 
-            bgColor={checkThemeAndScreenSize(colorMode, isLargerThan768, 'whiteAlpha.400', 'white', 'blackAlpha.400', 'black')}
-            zIndex={99999}
+            zIndex={700}
             as="nav"
             align="center"
             justify="space-between"

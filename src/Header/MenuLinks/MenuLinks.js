@@ -7,7 +7,6 @@ import MenuLogo from "../MenuLogo/MenuLogo";
 const MenuLinks = ({ isOpen }) => {
     return (
         <Box
-
             paddingInline='5%'
             display={{ base: isOpen ? "block" : "none", md: "block" }}
             flexBasis={{ base: "100%", }}

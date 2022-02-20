@@ -12,7 +12,7 @@ import Card from '../Card';
 import IconDisplayer from '../IconDisplayer';
 
 
-export default function SplitScreen() {
+export default function SplitScreen(data) {
   return (
     <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
@@ -22,7 +22,7 @@ export default function SplitScreen() {
       </Flex>
       <Flex flex={1}>
         <Center>
-          <IconDisplayer></IconDisplayer>
+          <IconDisplayer {...data} />
         </Center>
       </Flex>
     </Stack>
