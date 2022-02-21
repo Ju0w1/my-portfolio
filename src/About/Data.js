@@ -14,66 +14,66 @@ import GitHubIcon from '../Components/Icons/GitHub'
 //crear funcion que le pase el color al icon dependiendo del estado dark or light
 
 export const technologiesData = [{
-    id: 0,
-    icon: < ReactIcon width="5rem" />,
-    name: 'React.js',
-    isNew: true,
-    comment: 'Learning'
-},
-{
-    id: 1,
-    icon: < NextIcon width="5rem" />,
-    name: 'Next.js',
-    isNew: true,
-    comment: 'Learning'
-},
-{
-    id: 2,
-    icon: < HTMLIcon width="5rem" />,
-    name: 'HTML',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 3,
-    icon: < CSSIcon width="5rem" />,
-    name: 'CSS',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 4,
-    icon: < JavascriptIcon width="5rem" />,
-    name: 'Javascript',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 5,
-    icon: < BootstrapIcon width="5rem" />,
-    name: 'Bootstrap',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 6,
-    icon: < FlutterIcon width="5rem" />,
-    name: 'Flutter',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 7,
-    icon: < GitIcon width="5rem" />,
-    name: 'Git',
-    isNew: false,
-    comment: 'Learned'
-},
-{
-    id: 8,
-    icon: < GitHubIcon width="5rem" />,
-    name: 'Git',
-    isNew: false,
-    comment: 'Learned'
-}
+        id: 1,
+        icon: < ReactIcon width = "5rem" / > ,
+        name: 'React.js',
+        isNew: true,
+        comment: 'Learning'
+    },
+    {
+        id: 2,
+        icon: < NextIcon width = "5rem" / > ,
+        name: 'Next.js',
+        isNew: true,
+        comment: 'Learning'
+    },
+    {
+        id: 3,
+        icon: < HTMLIcon width = "5rem" / > ,
+        name: 'HTML',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 4,
+        icon: < CSSIcon width = "5rem" / > ,
+        name: 'CSS',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 5,
+        icon: < JavascriptIcon width = "5rem" / > ,
+        name: 'Javascript',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 6,
+        icon: < BootstrapIcon width = "5rem" / > ,
+        name: 'Bootstrap',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 7,
+        icon: < FlutterIcon width = "5rem" / > ,
+        name: 'Flutter',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 8,
+        icon: < GitIcon width = "5rem" / > ,
+        name: 'Git',
+        isNew: false,
+        comment: 'Learned'
+    },
+    {
+        id: 9,
+        icon: < GitHubIcon width = "5rem" / > ,
+        name: 'Git',
+        isNew: false,
+        comment: 'Learned'
+    }
 ]
