@@ -1,6 +1,8 @@
 import React from "react"
-import { Box, Image, Flex, Heading, Center, Spacer, Text, VStack, Link } from "@chakra-ui/react"
+import { Box, Flex, Image, Heading, Center, Spacer, Text, VStack, Link } from "@chakra-ui/react"
 import ScrollIcon from "./ScrollAnim/ScrollIcon";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Home = ({ ...props }) => {
     return (
@@ -16,7 +18,14 @@ const Home = ({ ...props }) => {
                 </Box>
                 <Box w={['100%', '100%', '50%', '50%']} h={['50%', '75%', '100%',]} mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
                     <Center h={'100%'} w='100%'>
-                        <Image border='8px solid' shadow='2px 10px 20px rgba(0, 0, 0, 0.2)' borderRadius='full' w={['70%', '70%', '100%', '40%']} objectFit='cover' src="/me.jpg" />
+                        <Box w={['70%', '70%', '100%', '40%']}>
+                            <LazyLoadImage
+                                src="/me.jpg" // use normal <img> attributes as props
+                                effect="blur"
+                                style={{ 'border-radius': '250px', 'border': '8px solid' }}
+                            />
+                        </Box>
+                        {/* <Image borderRadius='full' w={['70%', '70%', '100%', '40%']} objectFit='cover' src="/me.jpg" /> */}
                     </Center>
                 </Box>
             </Box>
