@@ -20,8 +20,8 @@ export default function SplitScreen(data) {
           <Card />
         </Stack>
       </Flex>
-      <Flex flex={1}>
-        <Center>
+      <Flex w='auto' flex={1}>
+        <Center >
           <IconDisplayer {...data} />
         </Center>
       </Flex>

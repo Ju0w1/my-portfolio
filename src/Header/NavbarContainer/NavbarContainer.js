@@ -10,8 +10,8 @@ const NavBarContainer = ({ children, ...props }) => {
 
     return (
         <Flex
-            backdropFilter='blur(2px)'
-            backgroundColor={checkThemeAndScreenSize(colorMode, isLargerThan768, 'whiteAlpha.400', 'white', 'blackAlpha.400', 'black')}
+            backdropFilter='blur(3px)'
+            backgroundColor={checkThemeAndScreenSize(colorMode, isLargerThan768, 'whiteAlpha.600', 'white', 'blackAlpha.600', 'black')}
 
             zIndex={700}
             as="nav"
