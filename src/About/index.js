@@ -13,7 +13,8 @@ const About = (data) => {
     return (
         <Stack minH={'100vh'} direction={{ base: 'column', lg: 'row' }}>
             <Flex p={8} flex={1} align={'center'} justify={'center'}>
-                <Stack spacing={6} w={'full'} maxW={'lg'}>
+                <Stack spacing={6} w={'full'} >
+                    {/* maxW={'lg'} */}
                     <Card />
                 </Stack>
             </Flex>
