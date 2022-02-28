@@ -2,6 +2,7 @@ import React from "react"
 import { VStack } from "@chakra-ui/react"
 import Home from "../Home/Home"
 import About from "../About"
+import CodeStyleSnippet from "../Components/AboutCodeStyle"
 
 
 const Main = ({ toggle, isOpen }) => {
@@ -9,6 +10,7 @@ const Main = ({ toggle, isOpen }) => {
         <VStack>
             <Home />
             <About />
+
         </VStack>
     )
 }

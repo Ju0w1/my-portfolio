@@ -1,6 +1,6 @@
 import React from "react"
-import { Box, Flex, Image, Heading, Center, Spacer, Text, VStack, Link } from "@chakra-ui/react"
-import ScrollIcon from "./ScrollAnim/ScrollIcon";
+import { Box, Heading, Center, Text, VStack } from "@chakra-ui/react"
+import ScrollIcon from "../Components/ScrollAnim/ScrollIcon";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
